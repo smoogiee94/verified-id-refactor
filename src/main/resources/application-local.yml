@@ -1,0 +1,27 @@
+logging:
+  level:
+    root: info
+    com:
+      smoogiee:
+        verifiedidbackend: debug
+entra:
+  ad:
+    authority:            "http://localhost:8080/tenant"
+    tenant:               "tenant"
+    managed_id:           false
+    client_id:            "client_id"
+    client_secret:        "client_secret"
+    client_cert_location: "client_cert_location"
+    client_cert_key:      "client_cert_key"
+    scope:                "scope"
+  verified_id:
+    api_endpoint:         "http://localhost:8080/"
+    did_authority:        "did_authority"
+    client_name:          "client_name"
+    api_key:              "api_key"
+    credential_type:      "credential_type"
+    purpose:              "purpose"
+    manifest_url:         "manifest_url"
+    pin_code_length:      4
+    photo_claim_name:     "photo_claim_name"
+    use_face_check:       "use_face_check"

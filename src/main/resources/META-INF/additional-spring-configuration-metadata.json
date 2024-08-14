@@ -1,0 +1,93 @@
+{
+  "properties": [
+    {
+      "name": "entra.ad.authority",
+      "type": "java.lang.String",
+      "description": "Entra Active Directory authority."
+    },
+    {
+      "name": "entra.ad.tenant",
+      "type": "java.lang.String",
+      "description": "Entra Active Directory tenant."
+    },
+    {
+      "name": "entra.ad.managed_id",
+      "type": "java.lang.Boolean",
+      "description": "Entra Active Directory managed ID."
+    },
+    {
+      "name": "entra.ad.client_id",
+      "type": "java.lang.String",
+      "description": "Entra Active Directory client ID."
+    },
+    {
+      "name": "entra.ad.client_secret",
+      "type": "java.lang.String",
+      "description": "Entra Active Directory client secret used for authentication."
+    },
+    {
+      "name": "entra.ad.client_cert_location",
+      "type": "java.lang.String",
+      "description": "Entra Active Directory client certificate used for authentication."
+    },
+    {
+      "name": "entra.ad.client_cert_key",
+      "type": "java.lang.String",
+      "description": "Entra Active Directory client private key."
+    },
+    {
+      "name": "entra.ad.scope",
+      "type": "java.lang.String",
+      "description": "Entra Active Directory scope."
+    },
+    {
+      "name": "entra.verified_id.api_endpoint",
+      "type": "java.lang.String",
+      "description": "Entra Verified ID API endpoint."
+    },
+    {
+      "name": "entra.verified_id.did_authority",
+      "type": "java.lang.String",
+      "description": "Entra Verified ID Decentralized ID authority."
+    },
+    {
+      "name": "entra.verified_id.client_name",
+      "type": "java.lang.String",
+      "description": "Entra Verified ID client name."
+    },
+    {
+      "name": "entra.verified_id.api_key",
+      "type": "java.lang.String",
+      "description": "Entra Verified ID callback API key."
+    },
+    {
+      "name": "entra.verified_id.credential_type",
+      "type": "java.lang.String",
+      "description": "Entra Verified ID credential type."
+    },
+    {
+      "name": "entra.verified_id.purpose",
+      "type": "java.lang.String",
+      "description": "Entra Verified ID purpose."
+    },
+    {
+      "name": "entra.verified_id.manifest_url",
+      "type": "java.lang.String",
+      "description": "Entra Verified ID manifest URL."
+    },
+    {
+      "name": "entra.verified_id.pin_code_length",
+      "type": "java.lang.Integer",
+      "description": "Entra Verified ID pin code length."
+    },
+    {
+      "name": "entra.verified_id.photo_claim_name",
+      "type": "java.lang.String",
+      "description": "Entra Verified ID photo claim name."
+    },
+    {
+      "name": "entra.verified_id.use_face_check",
+      "type": "java.lang.String",
+      "description": "Entra Verified ID use face check."
+    }
+  ] }
